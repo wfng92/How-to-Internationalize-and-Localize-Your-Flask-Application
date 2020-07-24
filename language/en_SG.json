@@ -1,0 +1,13 @@
+{
+  "last_updated": "Last updated on",
+  "dashboard_title": "My Dashboard",
+  "message": "Messages",
+  "view": "Views",
+  "share": "Shares",
+  "user": "Users",
+  "general_stat": "General Stats",
+  "new_visitor": "New Visitors",
+  "new_user": "New Users",
+  "country": "Countries",
+  "country_list": {"germany": "Germany", "united_kingdom": "UK", "russia": "Russia", "spain": "Spain", "india": "India", "france": "France"}
+}
