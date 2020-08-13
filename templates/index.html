@@ -30,7 +30,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-red w3-padding-16">
         <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
         <div class="w3-right">
-          <h3>{{ info.message }}</h3>
+          <h3>{{ stats.message }}</h3>
         </div>
         <div class="w3-clear"></div>
         <h4>{{ message }}</h4>
@@ -40,7 +40,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-blue w3-padding-16">
         <div class="w3-left"><i class="fa fa-eye w3-xxxlarge"></i></div>
         <div class="w3-right">
-          <h3>{{ info.view }}</h3>
+          <h3>{{ stats.view }}</h3>
         </div>
         <div class="w3-clear"></div>
         <h4>{{ view }}</h4>
@@ -50,7 +50,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-teal w3-padding-16">
         <div class="w3-left"><i class="fa fa-share-alt w3-xxxlarge"></i></div>
         <div class="w3-right">
-          <h3>{{ info.share }}</h3>
+          <h3>{{ stats.share }}</h3>
         </div>
         <div class="w3-clear"></div>
         <h4>{{ share }}</h4>
@@ -60,7 +60,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-container w3-orange w3-text-white w3-padding-16">
         <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
         <div class="w3-right">
-          <h3>{{ info.user }}</h3>
+          <h3>{{ stats.user }}</h3>
         </div>
         <div class="w3-clear"></div>
         <h4>{{ user }}</h4>
@@ -87,27 +87,27 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
       <tr>
         <td>{{ country_list.germany }}</td>
-        <td>{{ currency.germany }}</td>
+        <td>{{ currencies.germany }}</td>
       </tr>
       <tr>
         <td>{{ country_list.united_kingdom }}</td>
-        <td>{{ currency.united_kingdom }}</td>
+        <td>{{ currencies.united_kingdom }}</td>
       </tr>
       <tr>
         <td>{{ country_list.russia }}</td>
-        <td>{{ currency.russia }}</td>
+        <td>{{ currencies.russia }}</td>
       </tr>
       <tr>
         <td>{{ country_list.spain }}</td>
-        <td>{{ currency.spain }}</td>
+        <td>{{ currencies.spain }}</td>
       </tr>
       <tr>
         <td>{{ country_list.india }}</td>
-        <td>{{ currency.india }}</td>
+        <td>{{ currencies.india }}</td>
       </tr>
       <tr>
         <td>{{ country_list.france }}</td>
-        <td>{{ currency.france }}</td>
+        <td>{{ currencies.france }}</td>
       </tr>
     </table><br>
   </div>
